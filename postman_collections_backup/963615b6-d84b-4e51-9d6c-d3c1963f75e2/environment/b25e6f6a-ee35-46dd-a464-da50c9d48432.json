@@ -1,0 +1,1 @@
+{"id":"b25e6f6a-ee35-46dd-a464-da50c9d48432","name":"Production","values":[{"key":"base_url","value":"https://ez-tickets-backend.herokuapp.com/api/v1","enabled":true},{"key":"token","value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImlhdCI6MTYyODA5MDM0NCwiZXhwIjoxNjI4MTc2NzQ0fQ.GfnmbGrKdSlqx46pdQ6ApAYWMwem5o0M7HCIkFYTX7Y","enabled":true}]}
