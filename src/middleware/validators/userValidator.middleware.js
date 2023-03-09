@@ -40,7 +40,7 @@ exports.createUserSchema = [
         .trim()
         .exists()
         .withMessage('Contact is required')
-        .isMobilePhone('en-PK', {strictMode: true})
+        .isMobilePhone('en-IN', {strictMode: true})
         .withMessage('Must be a valid Pakistan mobile number along with country code')
 ];
 
@@ -71,7 +71,7 @@ exports.updateUserSchema = [
     body('contact')
         .optional()
         .trim()
-        .isMobilePhone('en-PK', {strictMode: true})
+        .isMobilePhone('en-IN', {strictMode: true})
         .withMessage('Must be a valid Pakistan mobile number along with country code'),
     body()
         .custom(value => {
